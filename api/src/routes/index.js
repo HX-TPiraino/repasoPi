@@ -5,8 +5,9 @@ const server = Router();
 
 // Configurar los routers
 
-server.use("/character", Characters);
-server.use("/episode", Episodes);
+//localhost:3001
 
+server.use("/character", Characters);//localhost:3001/character
+server.use("/episode", Episodes);//localhost:3001/episode
 
 module.exports = server;

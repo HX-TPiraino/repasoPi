@@ -45,5 +45,6 @@ try {
 
 module.exports = {
     getAllCharacters,
-    postCharacter
+    postCharacter,
+
 }

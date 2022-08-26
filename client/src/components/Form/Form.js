@@ -78,8 +78,14 @@ const Form = () => {
 
       </form>
         
-        {errors.name && <p>{errors.name}</p> }
-      
+        {
+        (errors.name && <p>{errors.name}</p>) 
+        ||
+        (errors.specie && <p>{errors.specie}</p>)
+        ||
+        (errors.episodes && <p>{errors.episodes}</p>)
+        }
+
     </div>
   )
 }
